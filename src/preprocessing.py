@@ -42,4 +42,6 @@ X_test_processed = preprocessor.transform(X_test)
 with open("model/preprocessor.pkl", "wb") as f:
     pickle.dump(preprocessor, f)
 
+print(df)
+
 print("Preprocessing completed and saved.")
